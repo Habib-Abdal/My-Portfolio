@@ -303,7 +303,7 @@ a:is(:link, :visited, :active).active {
   /* background-color: red; */
 }
 .design1 {
-  background-image: url(.shahe-do-shm.jpg);
+  background-image: url(./shahe-do-shm.jpg);
   background-size: cover;
   transition: all 0.3s;
 }
