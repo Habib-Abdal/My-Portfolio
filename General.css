@@ -9,7 +9,7 @@ for heading: 36px 40px 48px, 52px */
 font color:  #05ab80
  #010a08*/
 html {
-  font-size: 9px;
+  font-size: 10px;
 }
 body {
   background-color: #000;
@@ -40,7 +40,7 @@ h1 {
   color: #fff;
 }
 p {
-  font-size: 2rem;
+  font-size: 1.5rem;
   line-height: 1.7;
 }
 a {
