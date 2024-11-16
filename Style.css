@@ -303,22 +303,22 @@ a:is(:link, :visited, :active).active {
   /* background-color: red; */
 }
 .design1 {
-  background-image: url(/img/shahe-do-shm.jpg);
+  background-image: url(.shahe-do-shm.jpg);
   background-size: cover;
   transition: all 0.3s;
 }
 .design2 {
-  background-image: url(/img/sulaiman.jpg);
+  background-image: url(./sulaiman.jpg);
   background-size: cover;
   transition: all 0.3s;
 }
 .design3 {
-  background-image: url(/img/kabul-histroy.jpg);
+  background-image: url(./kabul-histroy.jpg);
   background-size: cover;
   transition: all 0.3s;
 }
 .design4 {
-  background-image: url(/img/children.jpg);
+  background-image: url(./children.jpg);
   background-size: cover;
   transition: all 0.3s;
 }
@@ -350,7 +350,7 @@ a:is(:link, :visited, :active).active {
       rgba(0, 0, 0, 0) 42%,
       rgba(0, 0, 0, 0.6923144257703081) 97%
     ),
-    url(/img/shahe-do-shm.jpg);
+    url(./shahe-do-shm.jpg);
   background-size: cover;
   transition: all 0.3s;
 }
@@ -360,7 +360,7 @@ a:is(:link, :visited, :active).active {
       rgba(0, 0, 0, 0) 42%,
       rgba(0, 0, 0, 0.6923144257703081) 97%
     ),
-    url(/img/sulaiman.jpg);
+    url(./sulaiman.jpg);
   background-size: cover;
   transition: all 0.3s;
 }
@@ -370,7 +370,7 @@ a:is(:link, :visited, :active).active {
       rgba(0, 0, 0, 0) 42%,
       rgba(0, 0, 0, 0.6923144257703081) 97%
     ),
-    url(/img/kabul-histroy.jpg);
+    url(./kabul-histroy.jpg);
   background-size: cover;
   transition: all 0.3s;
 }
@@ -380,7 +380,7 @@ a:is(:link, :visited, :active).active {
       rgba(0, 0, 0, 0) 42%,
       rgba(0, 0, 0, 0.6923144257703081) 97%
     ),
-    url(/img/children.jpg);
+    url(./children.jpg);
   background-size: cover;
   transition: all 0.3s;
 }
