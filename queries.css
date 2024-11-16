@@ -1,0 +1,328 @@
+/* 👽👽👽👽For small Desktops and large laptops👽👽👽👽 */
+
+@media (max-width: 76em) {
+  .header,
+  .hero-container {
+    padding: 3.5rem;
+  }
+  .service-part,
+  .latest-projects,
+  .latest-news,
+  .footer,
+  .footer-nav {
+    padding: 3.5rem;
+  }
+  .hero-container {
+    padding-bottom: 0;
+  }
+  /* .services {
+    gap: 2rem;
+  } */
+  .serv-card {
+    padding: 4rem 2rem;
+  }
+  .exp {
+    gap: 10rem;
+  }
+  .projects {
+    height: 60vh;
+  }
+  .footer-nav {
+    grid-template-columns: 1fr;
+    /* padding: 10rem; */
+  }
+}
+/* 👽👽👽👽For small Laptops and landscape tablets👽👽👽👽 */
+@media (max-width: 62em) {
+  html {
+    font-size: 9px;
+  }
+  h1 {
+    font-size: 3rem;
+  }
+  /* Hero container restyle */
+  .hero-container {
+    gap: 1rem;
+    /* padding: 4rem; */
+  }
+  /* left hero section button */
+  .btn {
+    padding: 1.5rem 1rem;
+  }
+  .services {
+    gap: 8rem;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .serv-card {
+    padding: 7rem 4rem;
+  }
+  .exp {
+    gap: 15rem;
+  }
+  /* projects */
+  .projects {
+    grid-template-columns: 1fr 1.5fr 1fr;
+  }
+  /* LATEST NEWS */
+  .latest-projects {
+    grid-template-columns: 1fr 1fr;
+  }
+  .flex-card {
+    display: none;
+  }
+  hr {
+    display: none;
+  }
+  /* footer nav and form */
+  .--name {
+    gap: 2rem;
+  }
+}
+/* 👽👽👽👽For portrait tablets👽👽👽👽 */
+@media (max-width: 50em) {
+  html {
+    font-size: 7.5px;
+  }
+  .header {
+    position: relative;
+    margin-bottom: 0;
+  }
+  .header-nav {
+    display: none;
+  }
+  .hamburger {
+    display: block;
+    position: fixed;
+    cursor: pointer;
+    top: 4rem;
+    right: 2rem;
+    background-color: transparent;
+    border: none;
+    z-index: 100;
+  }
+  .burger,
+  .hamburger:after,
+  .hamburger:before {
+    content: "";
+    display: block;
+    width: 3.5rem;
+    /* padding-right: 2rem; */
+    height: 4px;
+    margin: 6px 0;
+    background-color: white;
+    transition: 0.4s;
+    border-radius: 50px;
+  }
+  /* Humburger after hovering cross icon using active class*/
+  .hamburger.active:before {
+    transform: rotate(-45deg) translate(-9px, 3px);
+    background-color: #05ab80;
+  }
+  .hamburger.active:after {
+    transform: rotate(45deg) translate(-9px, -3px);
+    background-color: #05ab80;
+  }
+  .hamburger.active .burger {
+    transform: translateX(-20px);
+    opacity: 0;
+    height: 1px;
+    background-color: #05ab80;
+  }
+  /* Mobile nav style css */
+  .hamburger-menu {
+    display: flex;
+    flex-direction: column;
+  }
+  .mob-nav {
+    display: flex;
+    position: fixed;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    background-color: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(5px);
+    left: 100%;
+    width: 100%;
+    top: 0;
+
+    min-height: 200rem;
+    z-index: 98;
+    padding-top: 20rem;
+    transition: 0.4s;
+  }
+  .mob-nav.active {
+    left: 0;
+    overflow: hidden;
+  }
+  .mob-nav a {
+    position: relative;
+    display: block;
+    left: 1rem;
+    width: 100%;
+    /* height: 2rem; */
+    max-width: 8rem;
+    margin: 0 auto 1rem;
+    text-align: center;
+    align-items: center;
+    padding-top: 0.5rem;
+    /* background-color: #6d6d6d; */
+    text-transform: uppercase;
+    transition: 0.4s;
+    /* border-radius: 10px; */
+  }
+  .mob-nav a:hover {
+    transition: all 0.4s;
+  }
+  .mobile-nav-social {
+    display: flex;
+    width: fit-content;
+    padding-left: 0;
+  }
+  .mobile-nav-social .nav-link::after {
+    top: 3.5rem;
+  }
+  /* 👽Hero seciton👽 */
+
+  .hero-container {
+    grid-template-columns: 1fr 1fr;
+    /* padding-bottom: 4rem; */
+  }
+  /* .hero-img {
+    height: 40rem;
+  } */
+  .left-hero {
+    gap: 2rem;
+  }
+  .right-hero {
+    display: none;
+  }
+  .read-more::after {
+    top: 2.5rem;
+  }
+  .head-title {
+    display: none;
+  }
+  .small--device-head--title span {
+    color: #05ab80;
+  }
+  .small-device-hero-introduction {
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+  }
+  /* project images container */
+  .projects {
+    height: 50vh;
+  }
+  .portfolio-link {
+    font-size: 1.4rem;
+  }
+}
+/* 👽👽👽👽For Mobile Phones👽👽👽👽 */
+@media (max-width: 33em) {
+  html {
+    font-size: 7px;
+  }
+  .sec-header {
+    position: relative;
+    z-index: 1000;
+  }
+  .hamburger {
+    top: 5rem;
+    right: 2rem;
+    z-index: 10000;
+  }
+  .hero-container {
+    padding-top: 0;
+    grid-template-columns: 2fr 1fr;
+  }
+  .header--btn {
+    display: none;
+  }
+  .footer--btn {
+    display: inline-block;
+  }
+  .hero-img {
+    height: 40rem;
+  }
+  /* Service section */
+  .service-descript {
+    width: 100%;
+  }
+  .services {
+    gap: 4rem;
+  }
+  .serv-card {
+    padding: 2rem 3rem;
+  }
+  .exp {
+    gap: 15rem;
+  }
+  /* Portfolio section coding */
+  .projects {
+    height: 30vh;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
+  }
+  .portfolio-link {
+    top: 60%;
+    padding: 1rem;
+  }
+  .design:nth-child(2) .portfolio-link,
+  .design:nth-child(3) .portfolio-link {
+    top: 80%;
+  }
+  /* .portfolio-icon {
+    width: 1rem;
+  } */
+  /* latest project */
+  .latest-projects {
+    grid-template-columns: 1fr;
+  }
+  .flex-card {
+    display: flex;
+  }
+  hr {
+    display: inline;
+  }
+  .footer-nav {
+    padding: 0;
+  }
+
+  .hire-form {
+    padding: 2rem;
+  }
+  input,
+  textarea {
+    width: 100%;
+  }
+  .--name {
+    width: 100%;
+  }
+}
+/* Small mobile phones  */
+@media (max-width: 24rem) {
+  html {
+    font-size: 6px;
+  }
+}
+@media (max-width: 24rem) {
+  html {
+    font-size: 6px;
+  }
+  .burger,
+  .hamburger:after,
+  .hamburger:before {
+    width: 5rem;
+  }
+}
+@media (max-width: 20em) {
+  html {
+    font-size: 5px;
+  }
+  .burger,
+  .hamburger:after,
+  .hamburger:before {
+    width: 5rem;
+  }
+}
