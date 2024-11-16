@@ -1,0 +1,77 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+/* font system: 10px 14px 16px 18px 20px 24px 28px 32px for pragraphs
+for heading: 36px 40px 48px, 52px */
+/* coolors: backroung color: #000 
+font color:  #05ab80
+ #010a08*/
+html {
+  font-size: 10px;
+}
+body {
+  background-color: #000;
+  font-family: "Work Sans", sans-serif;
+}
+.container {
+  max-width: 140rem;
+  /* margin: 0 auto; */
+}
+
+.sec-service,
+.sec-latest-news {
+  background-color: #010a08;
+}
+.sec-service,
+.sec-portfolio,
+.latest-news,
+.sec-footer {
+  padding: 15rem 0 15rem 0;
+}
+h1 {
+  font-size: 3.6rem;
+  line-height: 1;
+  word-spacing: -3px;
+}
+p,
+h1 {
+  color: #fff;
+}
+p {
+  font-size: 2rem;
+  line-height: 1.7;
+}
+a {
+  font-size: 1.6rem;
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
+
+/* eveery section has width of 120 rem and center
+ service-part and portfolio part both has the same class */
+.latest-projects,
+.service-part,
+.latest-news,
+.sec-footer {
+  max-width: 120rem;
+  margin: 0 auto;
+}
+/* every section has display of flex */
+.service-part,
+.latest-news,
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 4rem;
+}
+.hamburger,
+.hamburger-menu,
+.small-device-hero-introduction {
+  display: none;
+}
