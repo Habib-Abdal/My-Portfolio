@@ -9,7 +9,7 @@ for heading: 36px 40px 48px, 52px */
 font color:  #05ab80
  #010a08*/
 html {
-  font-size: 9.5px;
+  font-size: 10px;
 }
 body {
   background-color: #000;
@@ -28,7 +28,7 @@ body {
 .sec-portfolio,
 .latest-news,
 .sec-footer {
-  padding: 12rem 0 12rem 0;
+  padding: 15rem 0 15rem 0;
 }
 h1 {
   font-size: 3.5rem;
